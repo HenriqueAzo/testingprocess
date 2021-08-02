@@ -22,7 +22,7 @@ Pode-se escrever Markdown em diversos editores de texto, como Atom, VSCode e sim
 
 
 
-### Títulos
+### **Títulos**
 
 Basta colocar a quantidade de # correspondente ao tamanho do título. Exemplo:
 
@@ -37,7 +37,7 @@ E assim segue até o 6.
 ---
 
 
-### Itálico, negrito e cortado
+### **Itálico, negrito e cortado**
 
 Para itálico basta usar asteriscos ao redor da palavra. Para negrito, dois asteriscos. Para cortado, dois '~' Exemplo: 
 
@@ -50,7 +50,7 @@ Obs.: funciona com '_' também.
 
 ---
 
-### Linha horizontal
+### **Linha horizontal**
 É a linha que divide cada tópico desse arquivo.
 
 Exemplo do texto acima:
@@ -60,7 +60,7 @@ Exemplo do texto acima:
 
 ---
 
-### Citação
+### **Citação**
 
 Se faz usando '>' no início da frase. Exemplo:
 
@@ -70,7 +70,7 @@ Se faz usando '>' no início da frase. Exemplo:
 
 ---
 
-### Links
+### **Links**
 
 Se escreve primeiro o nome que aparece no lugar do link entre colchetes ( [] ), depois entre parênteses o link do site. Exemplo usado no início do arquivo:
 
@@ -82,7 +82,7 @@ Se escreve:
 
 ---
 
-### Listas
+### **Listas**
 
 Se fazem listas usando travessões ou asteriscos. Exemplo:
 
@@ -99,7 +99,7 @@ ou
 
 ---
 
-### Imagens
+### **Imagens**
 Para se inserir imagens, no caso do [HackMD](https://hackmd.io/), basta dar Ctrl+V no local desejado ou selecionar a imagem que se deseja usar que já está no seu pc através da ferramenta disponível no site. em outros casos, é necessário escrever:
 
 !, depois [], que pode conter o título da imagem entre parênteses, depois () contendo o link da imagem.
@@ -114,7 +114,7 @@ Mas sem os espaços entre os elementos.
 
 ---
 
-### Específicos do GitHub
+### **Específicos do GitHub**
 
 #### Blocos de código
 
@@ -129,7 +129,7 @@ def add(num1, num2):
 
 ---
 
-#### Tabelas
+#### **Tabelas**
 
 Podem se integrar mais células horizontalmente e verticalmente, basta inserir mais elementos. Observe:
 
@@ -139,3 +139,25 @@ Podem se integrar mais células horizontalmente e verticalmente, basta inserir m
 
 ![](https://i.imgur.com/VcLpV4L.png)
 
+---
+
+## Como colocar os arquivos feitos no [HackMD](https://hackmd.io) diretamente no [GitHub](https://github.com)
+
+O site HackMD, além de um facilitador na escrita e edição de Markdown, funciona perfeitamente com o GitHub na hora de puxar arquivos que já existem, a fim de editá-los, ou simplesmente enviar novos. O processo funciona da seguinte maneira:
+
+### Para obter arquivos
+
+1. Clique nos três pontos no lado direito de cima da tela
+2. Escolha "Versions and GitHub Sync"
+
+![](https://i.imgur.com/pu6TACi.png)
+
+3. Escolha a opção Pull
+
+![](https://i.imgur.com/ydJohKS.png)
+
+4. Então, basta escolher o arquivo que se deseja editar no site.
+
+### Para fazer upload para o GitHub
+
+O processo é o mesmo que o anterior, mas quando se estiver na aba "Versions and GitHub Sync", deve-se selecionar o arquivo na coluna da esquerda, clicar em Push e selecionar o repositório que será seu destino.
