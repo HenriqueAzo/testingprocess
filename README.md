@@ -127,6 +127,7 @@ def add(num1, num2):
 
 ![](https://i.imgur.com/pmyGTY5.png)
 
+---
 
 #### Tabelas
 
